@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #3C9AE2;
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.navigation {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigation > div {
+    margin-right: 50px;
+}
+/*.pdf-files-list {
+    /* border: 2px solid red; */
+
+.pdf-files-list > .box {
+    /* border: 2px solid blue; */
+    margin: 0px 50px;
+}
+
+.box  >  div {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+button > a {
+    border: 2px solid red;
+    text-decoration: none;
+    color: white;
+}
+.pdf_icon{
+	width: 20px;
+	padding-top:20px;
+	margin-left:10px;
+	margin-right:15px;
+	
+}
+.pdf_name{
+	text-decoration:none;
+	color:black;
+	
+}
+
+.content{
+	background-color:#D3D3D3;
+	display:inline-block;
+	border-radius:20px;
+}
+.remove_icon{
+	width: 30px;
+	margin-left:1300px;
+	display:inline-block;
+	bottom:20px;
+	background-color:#D3D3D3;
+}
+.icon_edits{
+	margin-top:10px;
+	display:inline;
+	
+}
+.edit_icon{
+	width: 30px;
+	margin-left:20px;
+	
+}
